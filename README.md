@@ -1,5 +1,5 @@
 # QueryOpt: AI-Powered SQL Profiler & Optimizer
-
+**[Watch the Full Working Demo on Loom](https://www.loom.com/share/f029005561124eec89b9d7039ae01e70)**
 QueryOpt is a robust, local-first developer tool that leverages Large Language Models (LLMs) to automatically analyze, diagnose, and optimize slow PostgreSQL queries. 
 
 ## The Journey: From Version 1 to Version 2
