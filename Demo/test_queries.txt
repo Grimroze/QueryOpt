@@ -1,0 +1,14 @@
+POST /analyze
+
+{
+  "query": "SELECT * FROM employees WHERE department = 'Sales' AND salary > 50000;",
+  "schema_text": "CREATE TABLE employees (id INT PRIMARY KEY, name VARCHAR(100), department VARCHAR(50), salary INT, hire_date DATE);"
+}
+
+
+POST /analyze-deep
+
+{
+  "query": "SELECT query, winner, confidence FROM TABLENAME WHERE winner = 'prompt_a' ORDER BY confidence DESC;"
+}
+
