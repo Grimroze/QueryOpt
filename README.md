@@ -101,10 +101,16 @@ flowchart TB
    GROQ_API_KEY=your_groq_api_key
    ```
 
-3. **Run the Server:**
-   ```bash
-   uvicorn main:app --reload
-   ```
+### 2. Run with Docker (Recommended)
+```bash
+docker compose up --build
+```
+*This single command builds the image, installs dependencies, and starts the FastAPI server.*
+
+### 3. Test the API
+Navigate to `http://127.0.0.1:8000/docs` in your browser to access the interactive Swagger UI and test the endpoints.
+
+*(Note: To run manually without Docker, use `pip install -r requirements.txt` followed by `uvicorn main:app --reload`)*
 
 4. **Test the API:**
    Navigate to `http://127.0.0.1:8000/docs` in your browser to access the interactive Swagger UI and test the endpoints.
